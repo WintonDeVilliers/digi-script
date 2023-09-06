@@ -1,0 +1,146 @@
+.container{
+padding-left: 24px;
+padding-right: 24px;
+
+display: grid;
+grid-template-rows: auto 1fr auto;
+/* grid-template-columns: 1fr 6fr; */
+height: 100vh;
+}
+
+.script_container{
+    padding-left: 24px;
+    padding-right: 24px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    height: 100vh;
+}
+
+.main{
+display: flex;
+
+}
+/* .main_content{
+flex: 1;
+}  */
+
+.headline{
+font-size: 42px;
+/* font-weight: 500; */
+font-weight: bolder;
+color: #d8d8d8;
+margin: 0;
+padding-top: 120px;
+padding-left: 24px;
+}
+
+.headline_2{
+font-size: 22px;
+/* font-weight: 500; */
+font-weight: bolder;
+color: #d8d8d8;
+margin: 0;
+padding-top: 45px;
+padding-left: 24px;
+}
+
+.description{
+font-size: 27px;
+color: #edebeb;
+font-style: italic;
+margin: 0;
+padding: 0;
+
+margin-top: 24px;
+margin-bottom: 40px;
+padding-left: 24px;
+}
+.second_description{
+display: flexbox;
+font-size: 27px;
+font-style: italic;
+color: #bdbdbd;
+/* margin: 0;
+padding: 0; */
+padding-left: 24px;
+margin-top: 24px;
+margin-bottom: 40px;
+}
+
+.main_img{
+flex: 1;
+width: 900px;
+height: 550px;
+padding-top: 185px;
+padding-left: 24px;
+}
+
+/* Style the counter cards */
+.main_cards {
+
+padding-top: 24px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+display: grid;
+
+
+
+grid-template-columns: repeat(3, 1fr);
+
+grid-auto-rows: repeat(24, 1fr);
+
+grid-gap: 1rem;
+
+}
+
+.card {
+
+border: 6px solid transparent;
+padding: 15px;
+border-image: url(/abdevworxcollab/public/bankstorybg.jpg) 13 round;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+
+width: fit-content;
+height: fit-content;
+
+border-radius: 4px;
+float: left;
+padding: 0 10px;
+
+/* padding: .5rem; */
+background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+/* FUTURE FEATURE FORM CSS */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input_text {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+
+
+
+
+

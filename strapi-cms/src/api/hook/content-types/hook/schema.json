@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hooks",
+  "info": {
+    "singularName": "hook",
+    "pluralName": "hooks",
+    "displayName": "Hook"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AB_CLICKWAY": {
+      "type": "text"
+    }
+  }
+}

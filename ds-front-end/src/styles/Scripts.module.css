@@ -1,0 +1,305 @@
+.csnavbar {
+  display: flex;
+  padding: 20px;
+  overflow: hidden;
+  background: #002b60;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: visible;
+  font: 12px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  z-index: 100;
+  left: 0;
+}
+
+.csnav_img {
+  position: fixed;
+  top: 20px;
+  right: 20px; /* Adjust the right value as needed */
+}
+
+.csnavbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.csnavbar a:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .csnavbar {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .csnav_img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .csnav_img {
+    display: none;
+  }
+}
+
+
+ 
+.headline{
+font-size: 52px;
+/* font-weight: 500; */
+font-weight: bolder;
+color: #d8d8d8;
+/* background-color: #13102D; */
+margin: 0;
+padding-top: 54px;
+padding-left: 24px;
+}
+
+.mark{
+  background-color: #13102D;
+  color:#d8d8d8;
+}
+/* Main content */
+.csmain {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
+
+.open_section{
+  background-image: url("/bgstory.png");
+   /* background: rgba(36, 70, 175, 0.9); */
+  /* background-size: 950px; */
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-top: 96px;
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+
+.cards {
+background-color: #13102D;
+background-size:650px;
+
+display: flex;
+flex-wrap: wrap;
+flex-grow: 1;
+flex-wrap: wrap;
+flex-direction: row;
+
+padding-top: 24px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+
+
+
+
+.card {
+/* font-size: 17px; */
+padding: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+width: fit-content;
+height: fit-content;
+border-radius: 4px;
+float: left;
+padding: 0 10px;
+background-color: #566a83;
+transition: 0.2s;
+font-size: large;
+flex: 10%;
+margin: 0.5%;
+}
+
+.card:hover{
+  background-color: #97bae5;
+  color: black;
+}
+
+
+.p{
+  font-size: large;
+}
+
+.a{
+  font-size: large;
+  color: white;
+  /* margin-left: 100%; */
+}
+/* Style the button */
+
+/* Style the tooltip text */
+
+
+
+.flxbtngroup{
+  display: flex;
+  /* flex-direction: column; */
+  align-items:flex-start;
+  /* padding-left: 47px; */
+}
+
+
+
+/****************************************** responsive settings **********************/
+
+@media (max-width: 1250px) {
+  .cards{
+    flex: 100%;
+    flex-direction: column;
+  }
+}
+
+/* @media (max-width: 380px) {
+  .cards{
+    flex: 100%;
+    flex-direction: column;
+  }
+} */
+
+/*#######################################################NEW HOVER SETTINGS ###########################################*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 3 equal columns */
+  grid-template-rows: repeat(5, 1fr); /* Create 9 equal rows */
+  grid-gap: 2px; /* Add a 5px gap between buttons */
+}
+.wrapper {
+/* text-transform: uppercase; */
+background: #E5C388;
+color: #555;
+ border-radius: 6px;
+/* cursor:pointer; */
+font-family: "Gill Sans", Impact, sans-serif;
+font-size: 13px;
+padding: 5px 10px;
+margin: 0.1%;
+/* position: relative; */
+text-align: center;
+width: fit-content;
+transform:translateZ(0);
+ /* webkit text rendering fix */
+}
+
+.wrapper  .tooltip {
+  background: #1496bb;
+  bottom: 100%;
+  /* color: #f4f1f1; */
+  color: #13102D;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 20px;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  width:380px;
+  /* width:fit-content; */
+  transform: translateY(60px);
+  transition: all .25s ease-out;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+
+.wrapper:nth-child(4n + 1) .tooltip {
+  left: -15%; /* For first column */
+}
+
+.wrapper:nth-child(4n + 2) .tooltip {
+  right: -280%; /* For second column */
+}
+
+.wrapper:nth-child(4n + 3) .tooltip {
+  left: -258%; /* For third column */
+}
+
+.wrapper:nth-child(4n) .tooltip {
+  right: -22%; /* For last/fourth column */
+}
+
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+
+
+
+.wrapper:hover .tooltip {
+opacity: 1;
+pointer-events: auto;
+transform: translateY(0px);
+    
+}
+
+
+/* IE can just show/hide with no transition */
+.wrapper .tooltip {
+
+display: none;
+}
+
+.wrapper:hover .tooltip {
+
+display: block;
+}
+
+
+/*#######################################################TOP NAV HOVER ###########################################*/
+.dropdown .dropbtn  {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  border-top-right-radius: 12px;
+}
+
+.csnavbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#c0bebe;
+  color: black;
+
+}
+
+.dropdown_content {
+  display: none;
+  position:absolute;
+  top: 50px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown_content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_content a:hover {
+  background-color: #1496bb ;
+  color: #ddd;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+

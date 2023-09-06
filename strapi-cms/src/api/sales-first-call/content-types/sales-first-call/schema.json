@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sales_first_calls",
+  "info": {
+    "singularName": "sales-first-call",
+    "pluralName": "sales-first-calls",
+    "displayName": "sales-first-call",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Introduction": {
+      "type": "richtext"
+    },
+    "PreQualifyingQuestions": {
+      "type": "richtext"
+    },
+    "ComplianceQuestions": {
+      "type": "richtext"
+    },
+    "EarlyDigitalMigration": {
+      "type": "richtext"
+    },
+    "CustomerAuthentication": {
+      "type": "richtext"
+    },
+    "IdentificationAndVerification": {
+      "type": "richtext"
+    },
+    "RegulatoryStatements": {
+      "type": "richtext"
+    },
+    "BankingDetails": {
+      "type": "richtext"
+    },
+    "BankStatements": {
+      "type": "richtext"
+    },
+    "EmployerDetails": {
+      "type": "richtext"
+    },
+    "IncomeAndExpenses": {
+      "type": "richtext"
+    },
+    "PendingApplicationOutcome": {
+      "type": "richtext"
+    },
+    "CreditLifeCover": {
+      "type": "richtext"
+    },
+    "ApplicationSuccessfulOutcome": {
+      "type": "richtext"
+    },
+    "BureauInformation": {
+      "type": "richtext"
+    },
+    "Documentation": {
+      "type": "richtext"
+    },
+    "CloseOutProtocol": {
+      "type": "richtext"
+    },
+    "CardDelivery": {
+      "type": "richtext"
+    },
+    "InstructionsProductSignal": {
+      "type": "richtext"
+    },
+    "hook": {
+      "type": "string"
+    }
+  }
+}
