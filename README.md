@@ -21,9 +21,9 @@
 	Then add Strapi CMS to allow assigned QA team member(s) access for easy editing of information.
 
 
-      <h1 className={styles.headline}>Feature Description</h1>
-      
-      <p className={styles.statement}>
+<h1 className={styles.headline}>Feature Description</h1>
+
+<p className={styles.statement}>
 In an effort to mitigate against the increasing on-call-omission(s) that could result in possible write-offs, reputational and other types of losses.
 <br />
 We could use the Digital Script to usher in a "smart-check-list" that can give the user real-time feedback regarding the quality of their calls.
@@ -40,6 +40,8 @@ Below is an example/prototype of what this could be.
   <li>3.1.1. Mandatory parts are shown as list/bullet points and as they are mentioned/covered by the user the bullet point will be removed.</li>
   <li>4. When the user clicks stop , a final score is given</li>
 </ul>
+
+
 ### Voice Recognition enabled checklist
 ![smartchecklistfeature](https://github.com/WintonDeVilliers/digi-script/assets/65846344/bd6e0935-5c18-4374-a3d3-0f625eb77707)
 
