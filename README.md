@@ -20,3 +20,30 @@
  	We will use Next.js for Client-side layout ,styling and basic functionality. 
 	Then add Strapi CMS to allow assigned QA team member(s) access for easy editing of information.
   
+
+### Home Page
+![homepage](https://github.com/WintonDeVilliers/digi-script/assets/65846344/207f8faf-e3e7-4d84-b198-05151abf0985)
+
+### Script Page
+![scriptpage](https://github.com/WintonDeVilliers/digi-script/assets/65846344/e27399b4-d4df-42b0-9a15-b0fc7b30372b)
+
+
+### Script Page pop-up
+![scriptmodal](https://github.com/WintonDeVilliers/digi-script/assets/65846344/aefe208a-bc3a-4667-a592-7fe5cf96b1bd)
+
+
+### Conventional Checklist
+![checklistpage](https://github.com/WintonDeVilliers/digi-script/assets/65846344/df4e05a9-f69e-47f3-ae34-3e1ff9fd70ba)
+
+### Voice Recognition enabled checklist
+![smartchecklistfeature](https://github.com/WintonDeVilliers/digi-script/assets/65846344/bd6e0935-5c18-4374-a3d3-0f625eb77707)
+
+
+
+
+
+
+
+
+
+
